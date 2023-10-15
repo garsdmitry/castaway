@@ -1,0 +1,87 @@
+.newsletter {
+    border-radius: 32px;
+    background: #000;
+    width: 1300px;
+    height: 387px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 201px;
+}
+
+.newsletter-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 227px;
+}
+
+.newsletter-title__link {
+    width: 139px;
+    color: #118DA8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.newsletter-title__text {
+    width: 431px;
+    color: #FFF;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2px;
+    padding-left: 60px;
+}
+
+.newsletter-form__name {
+    width: 502px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 60px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+.newsletter-form__email {
+    width: 502px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+
+.newsletter__svg {
+    position: absolute;
+    padding-top: 322px;
+    padding-right: 1261px;
+    margin-left: -38px;
+}
+
+.newsletter__button {
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 15px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

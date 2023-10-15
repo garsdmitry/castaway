@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+}
+
+.logo_size-big {
+    width: 224px;
+    height: 46px;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.nav-list__link {
+    padding: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-list__link:hover {
+    color: #118DA8;
+}
+
+.nav-list__link_active {
+    color: #118DA8;
+}
+
+.nav-list__link_active:hover {
+    color: #FFF;
+}
+
+.header-nav-text {
+    font-size: 17px;
+    line-height: 27px;
+}
