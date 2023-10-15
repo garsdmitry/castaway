@@ -1,0 +1,53 @@
+.host {
+    display: flex;
+    position: relative;
+    margin-top: 260px;
+    justify-content: center;
+}
+
+.host-content {
+    position: relative;
+    margin-right: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.host-content-button {
+    width: 112px;
+    height: 112px;
+    background: #118DA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.host-content-link {
+    width: 126px;
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.host-content-title {
+    width: 496px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.host-content-text {
+    width: 556px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    line-height: 33px;
+    position: relative;
+}
