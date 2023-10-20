@@ -8,8 +8,8 @@
 .showcase {
     display: flex;
     padding-top: 83px;
-    padding-left: 70px;
-    padding-right: 134px;
+    margin-left: 70px;
+    margin-right: 134px;
 }
 
 .showcase__svg {
@@ -46,7 +46,7 @@
 .showcase-content__line {
     position: relative;
     padding-left: 60px;
-    padding-top: -84px;
+    margin-top: -84px;
 }
 
 .showcase-content__subtitle {

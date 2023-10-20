@@ -68,8 +68,9 @@ input {
 
 .newsletter__svg {
     position: absolute;
-    bottom: -26px;
-    left: -38px;
+    padding-top: 322px;
+    padding-right: 1261px;
+    margin-left: -38px;
 }
 
 .newsletter__button {
