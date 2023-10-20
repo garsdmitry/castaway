@@ -15,27 +15,27 @@
     height: 46px;
 }
 
-.nav-list {
+.header-nav {
     display: flex;
     font-size: 17px;
     line-height: 27px;
 }
 
-.nav-list__link {
+.header-nav__link {
     padding: 20px;
     text-decoration: none;
     color: #FFF;
 }
 
-.nav-list__link:hover {
+.header-nav__link:hover {
     color: #118DA8;
 }
 
-.nav-list__link_active {
+.header-nav__link_active {
     color: #118DA8;
 }
 
-.nav-list__link_active:hover {
+.header-nav__link_active:hover {
     color: #FFF;
 }
 

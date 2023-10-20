@@ -40,7 +40,7 @@
     margin-top: 60px;
 }
 
-.episodes__image-1 {
+.episodes-content-block__image1 {
     width: 389px;
     height: 465px;
     padding-top: 40px;
@@ -49,7 +49,7 @@
     padding-right: 53px;
 }
 
-.episodes__image-2 {
+.episodes-content-block__image2 {
     width: 389px;
     height: 432px;
     padding-top: 40px;
@@ -58,7 +58,7 @@
     padding-right: 53px;
 }
 
-.episodes__image-3 {
+.episodes-content-block__image3 {
     width: 389px;
     height: 432px;
     padding-top: 40px;
@@ -67,7 +67,7 @@
     padding-right: 53px;
 }
 
-.episodes-content__button {
+.episodes-content-text__button {
     width: 208px;
     height: 51px;
     border-radius: 6px;
@@ -78,7 +78,7 @@
     margin-top: 18px;
 }
 
-.episodes-content__label {
+.episodes-content-text__label {
     width: 73px;
     height: 27px;
     border-radius: 6px;
@@ -89,7 +89,7 @@
     margin-top: 48px;
 }
 
-.episodes-content__label-1 {
+.episodes-content-text__label_special {
     width: 136px;
     height: 27px;
     border-radius: 6px;
@@ -100,13 +100,13 @@
     margin-top: 48px;
 }
 
-.episodes-content__link {
+.episodes-content-text__link {
     width: 66px;
     color: #118DA8;
     padding-top: 48px;
 }
 
-.episodes-content__title {
+.episodes-content-text__title {
     width: 701px;
     color: #FFF;
     font-size: 64px;
@@ -114,7 +114,7 @@
     padding-top: 18px;
 }
 
-.episodes-content__text {
+.episodes-content-text__p {
     width: 773px;
     color: rgba(255, 255, 255, 0.70);
     font-size: 22px;

@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.host-content-button {
+.host-content__button {
     width: 112px;
     height: 112px;
     background: #118DA8;
@@ -21,7 +21,7 @@
     border-radius: 50%;
 }
 
-.host-content-link {
+.host-content__link {
     width: 126px;
     color: #118DA8;
     font-family: DM Sans;
@@ -30,7 +30,7 @@
     padding-top: 20px;
 }
 
-.host-content-title {
+.host-content__title {
     width: 496px;
     color: #FFF;
     font-family: DM Sans;
@@ -40,7 +40,7 @@
     padding-bottom: 28px;
 }
 
-.host-content-text {
+.host-content__text {
     width: 556px;
     color: rgba(255, 255, 255, 0.70);
     font-size: 22px;

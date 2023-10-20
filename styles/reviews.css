@@ -1,4 +1,4 @@
-.reviews__comment {
+.reviews-content__comment {
     color: #FFF;
     font-size: 36px;
     line-height: 43px;
@@ -6,7 +6,7 @@
     padding-top: 21px;
 }
 
-.reviews__author {
+.reviews-content__author {
     width: 154px;
     color: rgba(255, 255, 255, 0.70);
     font-size: 24px;
@@ -16,7 +16,7 @@
     white-space: nowrap;
 }
 
-.reviews__border {
+.reviews-content {
     width: 423px;
     height: 364px;
     border-radius: 32px;
@@ -35,7 +35,7 @@
     padding-bottom: 200px;
 }
 
-.reviews__mark {
+.reviews-content__mark {
     padding-top: 54px;
     padding-left: 50px;
 }
