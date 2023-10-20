@@ -1,13 +1,11 @@
 .host {
     display: flex;
-    position: relative;
-    margin-top: 260px;
+    padding-top: 260px;
     justify-content: center;
 }
 
 .host-content {
-    position: relative;
-    margin-right: 94px;
+    padding-right: 94px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +27,7 @@
     font-family: DM Sans;
     font-size: 18px;
     line-height: 27px;
-    position: relative;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .host-content-title {
@@ -40,8 +37,7 @@
     font-size: 65px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
-    position: relative;
-    margin-bottom: 28px;
+    padding-bottom: 28px;
 }
 
 .host-content-text {
@@ -49,5 +45,4 @@
     color: rgba(255, 255, 255, 0.70);
     font-size: 22px;
     line-height: 33px;
-    position: relative;
 }
