@@ -15,7 +15,7 @@
     height: 46px;
 }
 
-.header-nav {
+.header__nav {
     display: flex;
     font-size: 17px;
     line-height: 27px;
