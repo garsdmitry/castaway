@@ -6,7 +6,7 @@
     padding-top: 96px;
 }
 
-.episodes-header__title {
+.episode-header__title {
     white-space: nowrap;
     width: 513px;
     height: 80px;
@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-.episodes-header__button {
+.episode-header__button {
     width: 178px;
     height: 51px;
     border-radius: 6px;
@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.episodes-content-block {
+.episode-content-block {
     border-radius: 32px;
     background: #000;
     display: flex;
@@ -40,7 +40,7 @@
     margin-top: 60px;
 }
 
-.episodes-content-block__image1 {
+.episode-content-block__image_special {
     width: 389px;
     height: 465px;
     padding-top: 40px;
@@ -49,7 +49,7 @@
     padding-right: 53px;
 }
 
-.episodes-content-block__image2 {
+.episode-content-block__image {
     width: 389px;
     height: 432px;
     padding-top: 40px;
@@ -58,7 +58,7 @@
     padding-right: 53px;
 }
 
-.episodes-content-block__image3 {
+.episode-content-block__image {
     width: 389px;
     height: 432px;
     padding-top: 40px;
@@ -67,7 +67,7 @@
     padding-right: 53px;
 }
 
-.episodes-content-text__button {
+.episode-content-text__button {
     width: 208px;
     height: 51px;
     border-radius: 6px;
@@ -78,7 +78,7 @@
     margin-top: 18px;
 }
 
-.episodes-content-text__label {
+.episode-content-text__label {
     width: 73px;
     height: 27px;
     border-radius: 6px;
@@ -89,7 +89,7 @@
     margin-top: 48px;
 }
 
-.episodes-content-text__label_special {
+.episode-content-text__label_special {
     width: 136px;
     height: 27px;
     border-radius: 6px;
@@ -100,13 +100,13 @@
     margin-top: 48px;
 }
 
-.episodes-content-text__link {
+.episode-content-text__link {
     width: 66px;
     color: #118DA8;
     padding-top: 48px;
 }
 
-.episodes-content-text__title {
+.episode-content-text__title {
     width: 701px;
     color: #FFF;
     font-size: 64px;
@@ -114,7 +114,7 @@
     padding-top: 18px;
 }
 
-.episodes-content-text__p {
+.episode-content-text__text {
     width: 773px;
     color: rgba(255, 255, 255, 0.70);
     font-size: 22px;
@@ -122,7 +122,7 @@
     padding-top: 28px;
 }
 
-.episodes-content-text {
+.episode-content-text {
     display: flex;
     flex-direction: column;
 }
