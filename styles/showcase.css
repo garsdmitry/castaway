@@ -12,19 +12,19 @@
     margin-right: 134px;
 }
 
-.showcase__svg {
+.showcase-svg {
     width: 58px;
     height: 74px;
     position: absolute;
     margin: -26px;
 }
 
-.showcase-content {
+.showcase-main {
     display: flex;
     flex-direction: column;
 }
 
-.showcase-content-text__common {
+.showcase-main-text__common {
     width: 526px;
     color: #FFF;
     font-size: 70px;
@@ -35,7 +35,7 @@
     padding-right: 60px;
 }
 
-.showcase-content-text__underlined {
+.showcase-main-text__underlined {
     color: #FFF;
     font-size: 75px;
     line-height: 88px;
@@ -43,13 +43,13 @@
     padding-left: 60px;
 }
 
-.showcase-content__line {
+.showcase-main-line {
     position: relative;
     padding-left: 60px;
     margin-top: -84px;
 }
 
-.showcase-content__subtitle {
+.showcase-main-subtitle {
     color: #FFF;
     font-size: 15px;
     line-height: 24px;
@@ -58,7 +58,7 @@
     padding-bottom: 16px;
 }
 
-.showcase-content-buttons {
+.showcase-main-link {
     display: flex;
     gap: 17px;
     padding-left: 82px;

@@ -1,14 +1,14 @@
 footer {
     display: flex;
     padding-top: 200px;
-    padding-left: 70px;
+    gap: 16px;
 }
 
 .footer-title {
     display: flex;
     flex-direction: column;
     padding-bottom: 23px;
-    padding-left: 0;
+    width: 447px;
 }
 
 .footer-social {
@@ -20,21 +20,13 @@ footer {
 .footer-button {
     display: flex;
     gap: 17px;
+    width: 219px;
 }
 
-.footer-menu-1 {
+.footer-menu {
     display: flex;
     gap: 10px;
     flex-direction: column;
     color: #FFF;
-    padding-left: 239px;
-}
-
-.footer-menu-2 {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    color: #FFF;
-    padding-left: 120px;
-    padding-right: 21px;
+    width: 179px;
 }
