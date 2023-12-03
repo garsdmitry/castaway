@@ -117,3 +117,60 @@
     display: flex;
     flex-direction: column;
 }
+
+.br {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    .episode-header__title {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+
+    .episode-header__button {
+        display: none;
+    }
+
+    .episode-content-block__image {
+        display: none;
+    }
+
+    .episode-content-block {
+        margin-top: 20px;
+    }
+
+    .episode-content-text__label,
+    .episode-content-text__link,
+    .episode-content-text__title,
+    .episode-content-text__text,
+    .episode-content-text__button {
+        margin-left: 20px;
+
+    }
+
+    .episode-content-text__label {
+        margin-top: 20px;
+    }
+
+    .episode-content-text__link {}
+
+    .episode-content-text__title {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .episode-content-text__text {}
+
+    .episode-content-text__button {
+        margin-bottom: 20px;
+    }
+
+    .br {
+        display: block;
+    }
+
+    br {
+        display: none;
+    }
+}
