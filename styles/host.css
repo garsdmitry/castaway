@@ -47,6 +47,14 @@
     line-height: 33px;
 }
 
+.br {
+    display: none;
+}
+
+.p__active {
+    display: none;
+}
+
 @media screen and (max-width: 390px) {
     .host-image {
         display: none;
@@ -76,8 +84,12 @@
     p {
         margin: 0;
     }
-    
+
     .p__active {
         padding-top: 10px;
+    }
+
+    .br {
+        display: block;
     }
 }
