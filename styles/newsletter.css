@@ -85,3 +85,41 @@ input {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 390px) {
+    .newsletter-svg {
+        display: none;
+    }
+
+    .newsletter {
+        width: 380px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    .newsletter-title {
+        font-size: small;
+    }
+
+    .newsletter-form {
+        padding-left: 10px;
+    }
+
+    .newsletter-title__link,
+    .newsletter-title__text {
+        padding-left: 10px;
+    }
+
+    .newsletter-title__text {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .newsletter-form__name,
+    .newsletter-form__email {
+        width: 325px;
+    }
+}
