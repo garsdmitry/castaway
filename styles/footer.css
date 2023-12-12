@@ -30,3 +30,47 @@ footer {
     color: #FFF;
     width: 179px;
 }
+
+.footer-music__button-1,
+.footer-music__button-2,
+.footer-music__button-3,
+.footer-music__button-4,
+.footer-music__button-5 {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 390px) {
+    footer {
+        padding-top: 100px;
+    }
+
+    .footer-menu_mobile {
+        display: none;
+    }
+
+    .footer-button {
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 10px;
+        padding-left: 24px;
+    }
+
+    .footer-music__button-1,
+    .footer-music__button-2,
+    .footer-music__button-3,
+    .footer-music__button-4,
+    .footer-music__button-5 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-social {
+        padding-left: 10px;
+        padding-top: 10px;
+    } 
+
+    .footer-menu {
+        padding-top: 10px;
+    }
+}
