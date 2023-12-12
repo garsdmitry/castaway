@@ -8,11 +8,16 @@ ol {
 #app {
     width: 1440px;
     margin: 0 auto;
-
 }
 
 body {
     background: #191919;
     color: #FFF;
     font-family: 'DM Sans';
+}
+
+@media screen and (max-width: 390px) {
+    #app {
+        width: 390px;
+    }
 }

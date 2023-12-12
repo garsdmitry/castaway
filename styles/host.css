@@ -46,3 +46,50 @@
     font-size: 22px;
     line-height: 33px;
 }
+
+.br {
+    display: none;
+}
+
+.p__active {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    .host-image {
+        display: none;
+    }
+
+    .host {
+        padding-right: 0;
+        padding-left: 300px;
+    }
+
+    .host-content {}
+
+    .host-content__button {}
+
+    .host-content__link {
+        padding-top: 10px;
+    }
+
+    .host-content__title {
+        padding-bottom: 0;
+    }
+
+    .host-content__text {
+        line-height: auto;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .p__active {
+        padding-top: 10px;
+    }
+
+    .br {
+        display: block;
+    }
+}

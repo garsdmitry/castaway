@@ -24,12 +24,32 @@
       <div class="logo">
         <img class="logo__image" src="assets/castaway.svg" alt="svg">
       </div>
-      <nav class="header__nav">
-        <ul  class="nav-list">
-          <li class="nav-list__item"><a href="#" class="nav-list__link nav-list__link_active">Home</a></li>
-          <li class="nav-list__item"><a href="#" class="nav-list__link">Episodes</a></li>
-          <li class="nav-list__item"><a href="#" class="nav-list__link">About</a></li>
-          <li class="nav-list__item"><a href="#" class="nav-list__link">Contact</a></li>
+      <div class="header-hamburger-menu__wrapper">
+        <div class="header-hamburger-menu"></div>
+      </div>
+      <nav class="header-menu">
+        <ul class="header-menu__list">
+          <li>
+            <a href="#" class="header-menu__link header-menu__link_active">Home</a>
+          </li>
+          <li>
+            <a href="#" class="header-menu__link header-menu__link_simple">Episodes</a>
+          </li>
+          <li>
+            <a href="#" class="header-menu__link header-menu__link_simple">About</a>
+          </li>
+          <li>
+            <a href="#" class="header-menu__link header-menu__link_simple">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="header-mobile__menu">
+        <ul class="header-mobile__list">
+          <li class="header-mobile__item"><a href="#" class="header-mobile__link header-mobile__link_active">Home</a>
+          </li>
+          <li class="header-mobile__item"><a href="#" class="header-mobile__link">Episodes</a></li>
+          <li class="header-mobile__item"><a href="#" class="header-mobile__link">About</a></li>
+          <li class="header-mobile__item"><a href="#" class="header-mobile__link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -46,16 +66,20 @@
             <div class="showcase-main-text__common">Take your podcast to the</div>
             <div class="showcase-main-text__underlined">next <b>level</b> </div>
           </div>
+          <div class="showcase-main-text-mobile">
+            <div class="showcase-main-text-mobile__common">Take your <div class="br"></div><br> podcast to the</div>
+            <div class="showcase-main-text-mobile__underlined">next <b>level</b> </div>
+          </div>
           <div class="showcase-main-line">
             <img src="assets/curved-line.svg" alt="line">
           </div>
           <div class="showcase-main-subtitle">Listen on</div>
           <div class="showcase-main-link">
-            <a href="#"><img src="assets/button-1.svg" alt="button"></a>
-            <a href="#"><img src="assets/button-2.svg" alt="button"></a>
-            <a href="#"><img src="assets/button-3.svg" alt="button"></a>
-            <a href="#"><img src="assets/button-4.svg" alt="button"></a>
-            <a href="#"><img src="assets/button-5.svg" alt="button"></a>
+            <a href="#"><img class="showcase-main-link__item" src="assets/button-1.svg" alt="button"></a>
+            <a href="#"><img class="showcase-main-link__item" src="assets/button-2.svg" alt="button"></a>
+            <a href="#"><img class="showcase-main-link__item" src="assets/button-3.svg" alt="button"></a>
+            <a href="#"><img class="showcase-main-link__item" src="assets/button-4.svg" alt="button"></a>
+            <a href="#"><img class="showcase-main-link__item" src="assets/button-5.svg" alt="button"></a>
           </div>
         </div>
       </div>
@@ -68,15 +92,19 @@
         </div>
         <div class="episode-content">
           <div class="episode-content-block">
-            <div class="episode-content-block__image_special">
+            <div class="episode-content-block__image episode-content-block__image_special">
               <img src="assets/IMAGE (1).png" alt="image">
             </div>
             <div class="episode-content-text">
               <div class="episode-content-text__label">Gear</div>
               <div class="episode-content-text__link text_brand">Episode 3</div>
-              <div class="episode-content-text__title">Should you get <br> outboard audio gear?</div>
-              <div class="episode-content-text__text">Is hardware really worth it when it comes to podcasting? The answer
-                is...it <br> depends. Here’s our reasons on why you might want to consider picking <br> something up.
+              <div class="episode-content-text__title">Should you get <div class="br"></div><br> outboard audio<div
+                  class="br"></div> gear?</div>
+              <div class="episode-content-text__text">Is hardware really worth it when it<div class="br"></div> comes to
+                podcasting? The
+                answer<div class="br"></div>
+                is...it <br> depends. Here’s our reasons <div class="br"></div>on why you might want to consider<div
+                  class="br"></div> picking <br> something up.
               </div>
               <div class="episode-content-text__button">
                 <a>View Episode Details</a>
@@ -88,11 +116,14 @@
               <img src="assets/IMAGE (2).png" alt="image">
             </div>
             <div class="episode-content-text">
-              <div class="episode-content-text__label_special">Tips & Tricks</div>
+              <div class="episode-content-text__label episode-content-text__label_special">Tips & Tricks</div>
               <div class="episode-content-text__link text_brand">Episode 2</div>
-              <div class="episode-content-text__title">Mic tricks to take <br> you to the next level</div>
-              <div class="episode-content-text__text">Stop rolling with those default settings on your mic. These small
-                tweaks will <br> take you from sounding good to great.</div>
+              <div class="episode-content-text__title">Mic tricks to take <div class="br"></div><br> you to the next<div
+                  class="br"></div> level</div>
+              <div class="episode-content-text__text">Stop rolling with those default <div class="br"></div>settings on
+                your mic. These
+                small<div class="br"></div>
+                tweaks will <br> take you from sounding<div class="br"></div> good to great.</div>
               <div class="episode-content-text__button">
                 <a>View Episode Details</a>
               </div>
@@ -105,9 +136,12 @@
             <div class="episode-content-text">
               <div class="episode-content-text__label">Gear</div>
               <div class="episode-content-text__link text_brand">Episode 1</div>
-              <div class="episode-content-text__title">The best microphone <br> under $200</div>
-              <div class="episode-content-text__text">With so many microphones on the market, how are you supposed to
-                know <br> what’s the best? Take a look at our top picks.</div>
+              <div class="episode-content-text__title">The best <div class="br"></div>microphone <br>
+                <div class="br"></div> under $200
+              </div>
+              <div class="episode-content-text__text">With so many microphones on the<div class="br"></div> market, how
+                are you supposed to<div class="br"></div>
+                know <br> what’s the best? Take a look<div class="br"></div> at our top picks.</div>
               <div class="episode-content-text__button">
                 <a>View Episode Details</a>
               </div>
@@ -123,8 +157,10 @@
           <div class="host-content__link text_brand">Meet your host</div>
           <div class="host-content__title">Jacob Paulaner</div>
           <div class="host-content__text">
-            <p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
-            <p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+            <p>Jacob has a background in audio
+            <div class="br"></div>engineering, and has been<div class="br"></div> podcasting since the early days.</p>
+            <p class="p__active">He’s here to help you level up your
+            <div class="br"></div> game by sharing everything he’s<div class="br"></div> learned along the way.</p>
           </div>
         </div>
         <div class="host-image">
@@ -154,6 +190,7 @@
         </div>
       </div>
       <div class="review">
+        <div class="review__title">Reviews</div>
         <div class="review__border">
           <div class="review__mark">
             <img src="assets/star.svg" alt="star">
@@ -245,7 +282,7 @@
         <div class="footer-menu__element">Episodes</div>
         <div class="footer-menu__element">Contact</div>
       </div>
-      <div class="footer-menu">
+      <div class="footer-menu footer-menu_mobile">
         <div class="footer-menu__element">Style Guide </div>
         <div class="footer-menu__element">Instructions</div>
         <div class="footer-menu__element">Changelog</div>
