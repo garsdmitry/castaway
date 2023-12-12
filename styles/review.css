@@ -38,3 +38,30 @@
     padding-top: 54px;
     padding-left: 50px;
 }
+
+.review__title {
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    .review {
+        padding-top: 120px;
+    }
+
+    .review__title {
+        display: block;
+        font-size: 70px;
+        margin: 0;
+    }
+
+    .review__border {
+        width: 423px;
+        height: 300px;
+    }
+
+    .review__mark,
+    .review__comment,
+    .review__author {
+        padding-left: 20px;
+    }
+}
